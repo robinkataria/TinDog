@@ -1,0 +1,194 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section Colors */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 60px;
+  position: absolute;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  /* z-index: 1 */
+}
+
+.feat-icon {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: #ef8172;
+}
+
+.feat-icon:hover {
+  color: #ff4c68;
+}
+
+.feat-p {
+  margin: 0 3rem;
+ }
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding: 3% 15%;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Media Query */
+
+@media (max-width: 1000px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    margin-right: 60px;
+  }
+   #title {
+     text-align: center;
+   }
+}
+
+/* CTA */
+
+.cta-download-button {
+  margin: 5% 3% 0 0;
+}
+
+/* Footer */
+
+#footer .container-fluid {
+  padding: 5% 15%;
+}
+
+.footer-icon {
+  padding: 0 1rem 1.5rem;
+  color: black;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.twitter:hover{
+  color: #00acee;
+}
+
+.instagram:hover{
+  color: #3f729b;
+}
+
+.envelope:hover{
+  color: #B23121;
+}
